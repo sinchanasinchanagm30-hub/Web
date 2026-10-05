@@ -1,0 +1,205 @@
+Sure, Sinchana! 😊 Here is a **single-page `index.html`** with embedded CSS styling. You can copy everything into one `index.html` file and open it in a browser.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinchana GM - Personal Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff8f0;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ffd6e7, #d9f3ff);
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        header h1 {
+            color: #555;
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #777;
+            font-size: 18px;
+        }
+
+        .profile {
+            background: white;
+            margin: 40px auto;
+            padding: 35px;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .profile h2 {
+            color: #d48ca5;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+        }
+
+        .card {
+            background: #fff1f6;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #c47794;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #666;
+        }
+
+        .about {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .about h2 {
+            color: #88a9b8;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            color: #666;
+        }
+
+        .hobbies {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .hobby {
+            background: #e8f7ff;
+            padding: 15px 25px;
+            border-radius: 30px;
+            color: #668b9b;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: #d9f3ff;
+            text-align: center;
+            padding: 25px;
+            color: #667;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            .info {
+                grid-template-columns: 1fr;
+            }
+
+            .profile {
+                padding: 25px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Hi, I'm Sinchana GM 👋</h1>
+            <p>Welcome to my personal profile</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="profile">
+            <h2>About Me 🌸</h2>
+
+            <div class="info">
+
+                <div class="card">
+                    <h3>👩 Name</h3>
+                    <p>Sinchana GM</p>
+                </div>
+
+                <div class="card">
+                    <h3>📍 From</h3>
+                    <p>Chitradurga</p>
+                </div>
+
+                <div class="card">
+                    <h3>💻 Education</h3>
+                    <p>Computer Science Engineering</p>
+                </div>
+
+                <div class="card">
+                    <h3>🎨 Favorite Colour</h3>
+                    <p>Light Colours</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>My Interests 💕</h2>
+            <p>
+                I am a CSE student who enjoys learning about technology.
+                I also love watching movies and enjoying delicious food.
+                My favorite food is pani puri! 😋
+            </p>
+
+            <div class="hobbies">
+                <div class="hobby">😋 Pani Puri</div>
+                <div class="hobby">🎬 Movies</div>
+                <div class="hobby">💻 Coding</div>
+                <div class="hobby">🌸 Light Colours</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Made with 💖 by Sinchana GM</p>
+    </footer>
+
+</body>
+</html>
+```
